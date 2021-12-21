@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+  font-family: "Oswald", sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body .container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  max-width: 360px;
+  min-width: 274px;
+  text-align: center;
+}
+
+header {
+  background-color: #e1a1b0;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: whitesmoke;
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+
+#myH2 {
+  display: flex;
+  justify-content: space-around;
+  margin: 25px 0px 50px 0px;
+}
+
+h2 {
+  margin: 0px 10px 0px 10px;
+}
+
+h2 img {
+  width: 30px;
+  height: auto;
+  vertical-align: middle;
+}
+
+#button {
+  display: flex;
+  justify-content: center;
+}
+
+#button img {
+  width: 70%;
+  height: auto;
+  box-shadow: 10px 5px 20px grey;
+  border-radius: 100%;
+  margin-bottom: 50px;
+}
+
+#button img:hover {
+  transform: translateY(3px);
+  box-shadow: 10px 4px 20px grey;
+}
+
+#button img:active {
+  transform: translateY(7px);
+  box-shadow: 10px 2px 20px grey;
+}
+
+#boosts {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  padding: 0px 10% 0px 10%;
+}
+
+#boost {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  padding: 10px;
+  text-transform: uppercase;
+  color: whitesmoke;
+  background-color: #e1a1b0;
+  border: none;
+  cursor: pointer;
+}
+
+#boost:hover {
+  transform: translateY(3px);
+  box-shadow: 10px 6px #e0869b;
+}
+
+#boost:active {
+  transform: translateY(7px);
+  box-shadow: 10px 2px #e0869b;
+}
+
+#boost img {
+  width: 50px;
+  height: auto;
+  vertical-align: top;
+}
+
+footer {
+  height: 100px;
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  background-color: #e1a1b0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p {
+  color: whitesmoke;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
